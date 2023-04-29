@@ -1,5 +1,5 @@
 # ubuntu-reg-dns
 Enable Ubuntu to automatically register its hostname with a DNS server every time it boots up.
 
-chmod +x ubuntu-reg-dns.sh
-./ubuntu-reg-dns.sh
+**CHMOD +X UBUNTU-REG-DNS.SH
+./UBUNTU-REG-DNS.SH**
