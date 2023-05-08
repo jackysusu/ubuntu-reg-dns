@@ -1,6 +1,6 @@
 #!/bin/bash
 # Change Nameserver and Auto Register hostname to dns server even reboot
-# 2023/04/27     Jacky-Lin     jackysusu@amigo.com.tw;jackysusu@gmail.com
+# 2023/04/27     Jacky-Lin     jackysusu@gmail.com
 
 
 ###  variable  ###
@@ -72,6 +72,7 @@ cat << EOF > update_dns.service
 #!/bin/bash
 
 [Unit]
+Wants=network.target
 After=network.target
 
 [Service]
